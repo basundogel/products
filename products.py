@@ -8,5 +8,7 @@ while True:
 print(products)
 
 print(products[0][0])
-print(products[0][1])
-print(products[1][1])
+
+
+for product in products:
+	print(product[0], '的價格是:', product[1])
